@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CE2D8EF25CC77DB00C1899E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE2D8EE25CC77DB00C1899E /* AppDelegate.swift */; };
+		6CE2D8F825CC77DE00C1899E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE2D8F725CC77DE00C1899E /* Assets.xcassets */; };
+		6CE2D8FB25CC77DE00C1899E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CE2D8F925CC77DE00C1899E /* LaunchScreen.storyboard */; };
+		6CE2D92B25CCA14200C1899E /* TwilioVerify in Frameworks */ = {isa = PBXBuildFile; productRef = 6CE2D92A25CCA14200C1899E /* TwilioVerify */; };
+		6CE2D93125CD03C800C1899E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE2D93025CD03C800C1899E /* LoginViewController.swift */; };
+		EC2DB82325CF93A8008ACD32 /* ChallengeViewModel_Factor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC2DB82225CF93A8008ACD32 /* ChallengeViewModel_Factor.swift */; };
+		ECED97CD25CE085D000FFD6F /* URLRequest_EncodeParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED97CC25CE085D000FFD6F /* URLRequest_EncodeParameters.swift */; };
+		ECED97E425CE8A97000FFD6F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED97E325CE8A97000FFD6F /* Models.swift */; };
+		ECED97E725CE8ACB000FFD6F /* NetworkProvinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED97E625CE8ACB000FFD6F /* NetworkProvinding.swift */; };
+		ECED97EA25CE8AEA000FFD6F /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED97E925CE8AEA000FFD6F /* NetworkProvider.swift */; };
+		ECED97ED25CE8B15000FFD6F /* VerifyTokenAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED97EC25CE8B15000FFD6F /* VerifyTokenAPI.swift */; };
+		ECED97F025CE8B22000FFD6F /* VerifyRegisterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED97EF25CE8B22000FFD6F /* VerifyRegisterAPI.swift */; };
+		ECED97F325CE8B5D000FFD6F /* VerifyLoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED97F225CE8B5D000FFD6F /* VerifyLoginAPI.swift */; };
+		ECED97FA25CE8BEF000FFD6F /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED97F925CE8BEF000FFD6F /* BaseView.swift */; };
+		ECED97FD25CE8C0B000FFD6F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED97FC25CE8C0B000FFD6F /* BaseViewController.swift */; };
+		ECED980025CE8C4D000FFD6F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED97FF25CE8C4D000FFD6F /* LoginViewModel.swift */; };
+		ECED980325CE8C84000FFD6F /* FactorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED980225CE8C84000FFD6F /* FactorViewModel.swift */; };
+		ECED980625CE8CC4000FFD6F /* ChallengeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED980525CE8CC4000FFD6F /* ChallengeViewModel.swift */; };
+		ECED980B25CE8D0D000FFD6F /* ChallengeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED980A25CE8D0D000FFD6F /* ChallengeViewController.swift */; };
+		ECED980E25CE8D49000FFD6F /* FactorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED980D25CE8D49000FFD6F /* FactorViewController.swift */; };
+		ECED981125CE8D9F000FFD6F /* TwilioAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED981025CE8D9F000FFD6F /* TwilioAdapter.swift */; };
+		ECED981725CF7FF0000FFD6F /* FactorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED981625CF7FF0000FFD6F /* FactorView.swift */; };
+		ECED981A25CF83DA000FFD6F /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECED981925CF83DA000FFD6F /* ChallengeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6CE2D8EB25CC77DB00C1899E /* iOSVerifyExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSVerifyExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE2D8EE25CC77DB00C1899E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CE2D8F725CC77DE00C1899E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CE2D8FA25CC77DE00C1899E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CE2D8FC25CC77DE00C1899E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE2D90725CC977E00C1899E /* TwilioVerify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwilioVerify.framework; path = Carthage/Build/iOS/TwilioVerify.framework; sourceTree = "<group>"; };
+		6CE2D91025CC9ACA00C1899E /* TwilioVerify.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TwilioVerify.xcframework; path = Frameworks/TwilioVerify.xcframework; sourceTree = "<group>"; };
+		6CE2D91525CC9D9500C1899E /* TwilioVerify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TwilioVerify.framework; path = Frameworks/TwilioVerify.framework; sourceTree = "<group>"; };
+		6CE2D93025CD03C800C1899E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EC2DB82225CF93A8008ACD32 /* ChallengeViewModel_Factor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewModel_Factor.swift; sourceTree = "<group>"; };
+		ECED97CC25CE085D000FFD6F /* URLRequest_EncodeParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRequest_EncodeParameters.swift; sourceTree = "<group>"; };
+		ECED97E325CE8A97000FFD6F /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		ECED97E625CE8ACB000FFD6F /* NetworkProvinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvinding.swift; sourceTree = "<group>"; };
+		ECED97E925CE8AEA000FFD6F /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		ECED97EC25CE8B15000FFD6F /* VerifyTokenAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyTokenAPI.swift; sourceTree = "<group>"; };
+		ECED97EF25CE8B22000FFD6F /* VerifyRegisterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyRegisterAPI.swift; sourceTree = "<group>"; };
+		ECED97F225CE8B5D000FFD6F /* VerifyLoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyLoginAPI.swift; sourceTree = "<group>"; };
+		ECED97F925CE8BEF000FFD6F /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		ECED97FC25CE8C0B000FFD6F /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		ECED97FF25CE8C4D000FFD6F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		ECED980225CE8C84000FFD6F /* FactorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorViewModel.swift; sourceTree = "<group>"; };
+		ECED980525CE8CC4000FFD6F /* ChallengeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewModel.swift; sourceTree = "<group>"; };
+		ECED980A25CE8D0D000FFD6F /* ChallengeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeViewController.swift; sourceTree = "<group>"; };
+		ECED980D25CE8D49000FFD6F /* FactorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorViewController.swift; sourceTree = "<group>"; };
+		ECED981025CE8D9F000FFD6F /* TwilioAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwilioAdapter.swift; sourceTree = "<group>"; };
+		ECED981625CF7FF0000FFD6F /* FactorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactorView.swift; sourceTree = "<group>"; };
+		ECED981925CF83DA000FFD6F /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CE2D8E825CC77DB00C1899E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE2D92B25CCA14200C1899E /* TwilioVerify in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CE2D8E225CC77DB00C1899E = {
+			isa = PBXGroup;
+			children = (
+				6CE2D8ED25CC77DB00C1899E /* iOSVerifyExample */,
+				6CE2D8EC25CC77DB00C1899E /* Products */,
+				6CE2D90625CC977E00C1899E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6CE2D8EC25CC77DB00C1899E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CE2D8EB25CC77DB00C1899E /* iOSVerifyExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CE2D8ED25CC77DB00C1899E /* iOSVerifyExample */ = {
+			isa = PBXGroup;
+			children = (
+				6CE2D8EE25CC77DB00C1899E /* AppDelegate.swift */,
+				6CE2D8F725CC77DE00C1899E /* Assets.xcassets */,
+				6CE2D8F925CC77DE00C1899E /* LaunchScreen.storyboard */,
+				6CE2D8FC25CC77DE00C1899E /* Info.plist */,
+				ECED97CC25CE085D000FFD6F /* URLRequest_EncodeParameters.swift */,
+				ECED97F725CE8BC0000FFD6F /* Models */,
+				ECED97F525CE8BB2000FFD6F /* Networking */,
+				EC3A3AB925CFA9F0001254E4 /* Common */,
+				ECED980825CE8CDC000FFD6F /* ViewModels */,
+				ECED981325CE8DFA000FFD6F /* Controllers */,
+				EC3A3AB725CFA9D9001254E4 /* SDK */,
+			);
+			path = iOSVerifyExample;
+			sourceTree = "<group>";
+		};
+		6CE2D90625CC977E00C1899E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CE2D91525CC9D9500C1899E /* TwilioVerify.framework */,
+				6CE2D91025CC9ACA00C1899E /* TwilioVerify.xcframework */,
+				6CE2D90725CC977E00C1899E /* TwilioVerify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC2DB82525CF9CD7008ACD32 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ECED981925CF83DA000FFD6F /* ChallengeView.swift */,
+				ECED981625CF7FF0000FFD6F /* FactorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC3A3AB725CFA9D9001254E4 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				ECED981025CE8D9F000FFD6F /* TwilioAdapter.swift */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		EC3A3AB925CFA9F0001254E4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				ECED97F925CE8BEF000FFD6F /* BaseView.swift */,
+				ECED97FC25CE8C0B000FFD6F /* BaseViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		ECED97F525CE8BB2000FFD6F /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				ECED97E625CE8ACB000FFD6F /* NetworkProvinding.swift */,
+				ECED97E925CE8AEA000FFD6F /* NetworkProvider.swift */,
+				ECED97EC25CE8B15000FFD6F /* VerifyTokenAPI.swift */,
+				ECED97EF25CE8B22000FFD6F /* VerifyRegisterAPI.swift */,
+				ECED97F225CE8B5D000FFD6F /* VerifyLoginAPI.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		ECED97F725CE8BC0000FFD6F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECED97E325CE8A97000FFD6F /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECED980825CE8CDC000FFD6F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				ECED97FF25CE8C4D000FFD6F /* LoginViewModel.swift */,
+				ECED980225CE8C84000FFD6F /* FactorViewModel.swift */,
+				ECED980525CE8CC4000FFD6F /* ChallengeViewModel.swift */,
+				EC2DB82225CF93A8008ACD32 /* ChallengeViewModel_Factor.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ECED981325CE8DFA000FFD6F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC2DB82525CF9CD7008ACD32 /* Views */,
+				6CE2D93025CD03C800C1899E /* LoginViewController.swift */,
+				ECED980A25CE8D0D000FFD6F /* ChallengeViewController.swift */,
+				ECED980D25CE8D49000FFD6F /* FactorViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CE2D8EA25CC77DB00C1899E /* iOSVerifyExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE2D8FF25CC77DE00C1899E /* Build configuration list for PBXNativeTarget "iOSVerifyExample" */;
+			buildPhases = (
+				6CE2D8E725CC77DB00C1899E /* Sources */,
+				6CE2D8E825CC77DB00C1899E /* Frameworks */,
+				6CE2D8E925CC77DB00C1899E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSVerifyExample;
+			packageProductDependencies = (
+				6CE2D92A25CCA14200C1899E /* TwilioVerify */,
+			);
+			productName = iOSVerifyExample;
+			productReference = 6CE2D8EB25CC77DB00C1899E /* iOSVerifyExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CE2D8E325CC77DB00C1899E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					6CE2D8EA25CC77DB00C1899E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 6CE2D8E625CC77DB00C1899E /* Build configuration list for PBXProject "iOSVerifyExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CE2D8E225CC77DB00C1899E;
+			packageReferences = (
+				6CE2D92925CCA14200C1899E /* XCRemoteSwiftPackageReference "twilio-verify-ios" */,
+			);
+			productRefGroup = 6CE2D8EC25CC77DB00C1899E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CE2D8EA25CC77DB00C1899E /* iOSVerifyExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CE2D8E925CC77DB00C1899E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE2D8FB25CC77DE00C1899E /* LaunchScreen.storyboard in Resources */,
+				6CE2D8F825CC77DE00C1899E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CE2D8E725CC77DB00C1899E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE2D93125CD03C800C1899E /* LoginViewController.swift in Sources */,
+				ECED980B25CE8D0D000FFD6F /* ChallengeViewController.swift in Sources */,
+				ECED981A25CF83DA000FFD6F /* ChallengeView.swift in Sources */,
+				ECED980325CE8C84000FFD6F /* FactorViewModel.swift in Sources */,
+				ECED980E25CE8D49000FFD6F /* FactorViewController.swift in Sources */,
+				ECED97CD25CE085D000FFD6F /* URLRequest_EncodeParameters.swift in Sources */,
+				ECED97FD25CE8C0B000FFD6F /* BaseViewController.swift in Sources */,
+				ECED97E725CE8ACB000FFD6F /* NetworkProvinding.swift in Sources */,
+				6CE2D8EF25CC77DB00C1899E /* AppDelegate.swift in Sources */,
+				ECED97E425CE8A97000FFD6F /* Models.swift in Sources */,
+				ECED97EA25CE8AEA000FFD6F /* NetworkProvider.swift in Sources */,
+				EC2DB82325CF93A8008ACD32 /* ChallengeViewModel_Factor.swift in Sources */,
+				ECED97F025CE8B22000FFD6F /* VerifyRegisterAPI.swift in Sources */,
+				ECED981725CF7FF0000FFD6F /* FactorView.swift in Sources */,
+				ECED980025CE8C4D000FFD6F /* LoginViewModel.swift in Sources */,
+				ECED980625CE8CC4000FFD6F /* ChallengeViewModel.swift in Sources */,
+				ECED97FA25CE8BEF000FFD6F /* BaseView.swift in Sources */,
+				ECED97ED25CE8B15000FFD6F /* VerifyTokenAPI.swift in Sources */,
+				ECED97F325CE8B5D000FFD6F /* VerifyLoginAPI.swift in Sources */,
+				ECED981125CE8D9F000FFD6F /* TwilioAdapter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CE2D8F925CC77DE00C1899E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CE2D8FA25CC77DE00C1899E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CE2D8FD25CC77DE00C1899E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CE2D8FE25CC77DE00C1899E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CE2D90025CC77DE00C1899E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6RU34TP69;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = iOSVerifyExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hawer-Torres.iOSVerifyExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CE2D90125CC77DE00C1899E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K6RU34TP69;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = iOSVerifyExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hawer-Torres.iOSVerifyExample";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CE2D8E625CC77DB00C1899E /* Build configuration list for PBXProject "iOSVerifyExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE2D8FD25CC77DE00C1899E /* Debug */,
+				6CE2D8FE25CC77DE00C1899E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE2D8FF25CC77DE00C1899E /* Build configuration list for PBXNativeTarget "iOSVerifyExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE2D90025CC77DE00C1899E /* Debug */,
+				6CE2D90125CC77DE00C1899E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6CE2D92925CCA14200C1899E /* XCRemoteSwiftPackageReference "twilio-verify-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twilio/twilio-verify-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6CE2D92A25CCA14200C1899E /* TwilioVerify */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6CE2D92925CCA14200C1899E /* XCRemoteSwiftPackageReference "twilio-verify-ios" */;
+			productName = TwilioVerify;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6CE2D8E325CC77DB00C1899E /* Project object */;
+}
